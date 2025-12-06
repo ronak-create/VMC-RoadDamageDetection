@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="mermaid-diagram-0-1765026840973-svg" width="100%" style="max-width: 1248.7125244140625px;" viewBox="-8 -8 1248.7125244140625 587.25" role="graphics-document document" aria-roledescription="flowchart-v2" xmlns:xlink="http://www.w3.org/1999/xlink"><style>#mermaid-diagram-0-1765026840973-svg{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;font-size:16px;fill:#ccc;}#mermaid-diagram-0-1765026840973-svg .error-icon{fill:#a44141;}#mermaid-diagram-0-1765026840973-svg .error-text{fill:#ddd;stroke:#ddd;}#mermaid-diagram-0-1765026840973-svg .edge-thickness-normal{stroke-width:2px;}#mermaid-diagram-0-1765026840973-svg .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-0-1765026840973-svg .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-0-1765026840973-svg .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-0-1765026840973-svg .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-0-1765026840973-svg .marker{fill:lightgrey;stroke:lightgrey;}#mermaid-diagram-0-1765026840973-svg .marker.cross{stroke:lightgrey;}#mermaid-diagram-0-1765026840973-svg svg{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;font-size:16px;}#mermaid-diagram-0-1765026840973-svg .label{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;color:#ccc;}#mermaid-diagram-0-1765026840973-svg .cluster-label text{fill:#F9FFFE;}#mermaid-diagram-0-1765026840973-svg .cluster-label span,#mermaid-diagram-0-1765026840973-svg p{color:#F9FFFE;}#mermaid-diagram-0-1765026840973-svg .label text,#mermaid-diagram-0-1765026840973-svg span,#mermaid-diagram-0-1765026840973-svg p{fill:#ccc;color:#ccc;}#mermaid-diagram-0-1765026840973-svg .node rect,#mermaid-diagram-0-1765026840973-svg .node circle,#mermaid-diagram-0-1765026840973-svg .node ellipse,#mermaid-diagram-0-1765026840973-svg .node polygon,#mermaid-diagram-0-1765026840973-svg .node path{fill:#1f2020;stroke:#81B1DB;stroke-width:1px;}#mermaid-diagram-0-1765026840973-svg .flowchart-label text{text-anchor:middle;}#mermaid-diagram-0-1765026840973-svg .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-diagram-0-1765026840973-svg .node .label{text-align:center;}#mermaid-diagram-0-1765026840973-svg .node.clickable{cursor:pointer;}#mermaid-diagram-0-1765026840973-svg .arrowheadPath{fill:lightgrey;}#mermaid-diagram-0-1765026840973-svg .edgePath .path{stroke:lightgrey;stroke-width:2.0px;}#mermaid-diagram-0-1765026840973-svg .flowchart-link{stroke:lightgrey;fill:none;}#mermaid-diagram-0-1765026840973-svg .edgeLabel{background-color:hsl(0, 0%, 34.4117647059%);text-align:center;}#mermaid-diagram-0-1765026840973-svg .edgeLabel rect{opacity:0.5;background-color:hsl(0, 0%, 34.4117647059%);fill:hsl(0, 0%, 34.4117647059%);}#mermaid-diagram-0-1765026840973-svg .labelBkg{background-color:rgba(87.75, 87.75, 87.75, 0.5);}#mermaid-diagram-0-1765026840973-svg .cluster rect{fill:hsl(180, 1.5873015873%, 28.3529411765%);stroke:rgba(255, 255, 255, 0.25);stroke-width:1px;}#mermaid-diagram-0-1765026840973-svg .cluster text{fill:#F9FFFE;}#mermaid-diagram-0-1765026840973-svg .cluster span,#mermaid-diagram-0-1765026840973-svg p{color:#F9FFFE;}#mermaid-diagram-0-1765026840973-svg div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;font-size:12px;background:hsl(20, 1.5873015873%, 12.3529411765%);border:1px solid rgba(255, 255, 255, 0.25);border-radius:2px;pointer-events:none;z-index:100;}#mermaid-diagram-0-1765026840973-svg .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#ccc;}#mermaid-diagram-0-1765026840973-svg :root{--mermaid-font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;}
+
+            /* Base text styling */
+            text {
+                fill: #333333 !important;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+                font-size: 14px !important;
+            }
+            
+            /* Dark mode text styling */
+            .dark text {
+                fill: #e5e7eb !important;
+            }
+            
+            /* Node styling */
+            .node rect, .node circle, .node ellipse, .node polygon {
+                fill: #ffffff !important;
+                stroke: #333333 !important;
+                stroke-width: 2px !important;
+            }
+            
+            /* Dark mode node styling */
+            .dark .node rect, .dark .node circle, .dark .node ellipse, .dark .node polygon {
+                fill: #374151 !important;
+                stroke: #e5e7eb !important;
+            }
+            
+            /* Edge/arrow styling */
+            .edgePath path {
+                stroke: #333333 !important;
+                stroke-width: 2px !important;
+                fill: none !important;
+            }
+            
+            /* Dark mode edge styling */
+            .dark .edgePath path {
+                stroke: #e5e7eb !important;
+            }
+            
+            /* Arrow markers */
+            marker path {
+                fill: #333333 !important;
+                stroke: #333333 !important;
+            }
+            
+            /* Dark mode arrow markers */
+            .dark marker path {
+                fill: #e5e7eb !important;
+                stroke: #e5e7eb !important;
+            }
+            
+            /* Class diagram specific */
+            .classBox {
+                fill: #ffffff !important;
+                stroke: #333333 !important;
+                stroke-width: 2px !important;
+            }
+            
+            /* Dark mode class diagram */
+            .dark .classBox {
+                fill: #374151 !important;
+                stroke: #e5e7eb !important;
+            }
+            
+            .classTitle {
+                fill: #333333 !important;
+                font-weight: bold !important;
+            }
+            
+            /* Dark mode class title */
+            .dark .classTitle {
+                fill: #e5e7eb !important;
+            }
+            
+            /* Flowchart specific */
+            .flowchart-link {
+                stroke: #333333 !important;
+                stroke-width: 2px !important;
+            }
+            
+            /* Dark mode flowchart */
+            .dark .flowchart-link {
+                stroke: #e5e7eb !important;
+            }
+            
+            /* Labels */
+            .edgeLabel {
+                background-color: #ffffff !important;
+                fill: #333333 !important;
+            }
+            
+            /* Dark mode labels */
+            .dark .edgeLabel {
+                background-color: #374151 !important;
+                fill: #e5e7eb !important;
+            }
+            
+            /* Subgraph styling */
+            .cluster rect {
+                fill: #f9f9f9 !important;
+                stroke: #666666 !important;
+                stroke-width: 1px !important;
+            }
+            
+            /* Dark mode subgraph */
+            .dark .cluster rect {
+                fill: #1f2937 !important;
+                stroke: #6b7280 !important;
+            }
+            
+            .cluster text {
+                fill: #333333 !important;
+                font-weight: bold !important;
+            }
+            
+            /* Dark mode cluster text */
+            .dark .cluster text {
+                fill: #e5e7eb !important;
+            }
+            
+            /* Ensure all text is visible */
+            tspan {
+                fill: inherit !important;
+            }
+            
+            /* Dark mode specific overrides */
+            .dark .label {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .labelBox {
+                fill: #374151 !important;
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .messageText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .noteText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .note {
+                fill: #fbbf24 !important;
+                stroke: #d97706 !important;
+            }
+            
+            .dark .actor {
+                fill: #374151 !important;
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .actor-line {
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .signalText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .signal {
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .sequenceNumber {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .sectionTitle {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .section {
+                fill: #1f2937 !important;
+                stroke: #6b7280 !important;
+            }
+            
+            .dark .loopText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .loopLine {
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .noteText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .activationText {
+                fill: #e5e7eb !important;
+            }
+            
+            .dark .activationBorder {
+                stroke: #e5e7eb !important;
+            }
+            
+            .dark .activationBorder2 {
+                stroke: #e5e7eb !important;
+            }
+        </style><g><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd" class="marker flowchart" viewBox="0 0 10 10" refX="6" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-pointStart" class="marker flowchart" viewBox="0 0 10 10" refX="4.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto"><path d="M 0 5 L 10 10 L 10 0 z" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-circleEnd" class="marker flowchart" viewBox="0 0 10 10" refX="11" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-circleStart" class="marker flowchart" viewBox="0 0 10 10" refX="-1" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><circle cx="5" cy="5" r="5" class="arrowMarkerPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"/></marker><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-crossEnd" class="marker cross flowchart" viewBox="0 0 11 11" refX="12" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><marker id="mermaid-diagram-0-1765026840973-svg_flowchart-crossStart" class="marker cross flowchart" viewBox="0 0 11 11" refX="-1" refY="5.2" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M 1,1 l 9,9 M 10,1 l -9,9" class="arrowMarkerPath" style="stroke-width: 2; stroke-dasharray: 1, 0;"/></marker><g class="root"><g class="clusters"><g class="cluster default flowchart-label" id="AdminApp"><rect style="" rx="0" ry="0" x="193.8812484741211" y="121.75" width="221.85000610351562" height="167.25"/><g class="cluster-label" transform="translate(193.8812484741211, 121.75)"><foreignObject width="221.85000610351562" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Admin Dashboard admin-panel</span></div></foreignObject></g></g><g class="cluster default flowchart-label" id="FlaskAI"><rect style="" rx="0" ry="0" x="997.7125053405762" y="0" width="235" height="109"/><g class="cluster-label" transform="translate(1061.3875045776367, 0)"><foreignObject width="107.6500015258789" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Flask AI Service</span></div></foreignObject></g></g><g class="cluster default flowchart-label" id="NodeAPI"><rect style="" rx="0" ry="0" x="617.1500053405762" y="129" width="615.5625" height="274.5"/><g class="cluster-label" transform="translate(791.2750053405762, 129)"><foreignObject width="267.3125" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Node Express API user-panel backend</span></div></foreignObject></g></g><g class="cluster default flowchart-label" id="Firebase"><rect style="" rx="0" ry="0" x="0" y="440.75" width="835.4625053405762" height="130.5"/><g class="cluster-label" transform="translate(388.56875228881836, 440.75)"><foreignObject width="58.32500076293945" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Firebase</span></div></foreignObject></g></g><g class="cluster default flowchart-label" id="CitizenApp"><rect style="" rx="0" ry="0" x="206.2437515258789" y="309" width="197.125" height="111.75"/><g class="cluster-label" transform="translate(206.2437515258789, 309)"><foreignObject width="197.125" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Citizen Web App user-panel</span></div></foreignObject></g></g></g><g class="edgePaths"><path d="M290.526,385.75L278.534,402.125C266.542,418.5,242.559,451.25,218.507,467.625C194.456,484,170.338,484,147.055,487.797C123.773,491.595,101.328,499.19,90.106,502.987L78.883,506.784" id="L-U-FA-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-U LE-FA" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M358.669,360.004L364.064,359.378C369.458,358.752,380.248,357.501,404.485,356.876C428.723,356.25,466.408,356.25,504.094,356.25C541.779,356.25,579.465,356.25,613.119,339.085C646.772,321.921,676.395,287.592,691.206,270.427L706.017,253.263" id="L-U-E-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-U LE-E" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M744.156,249.25L759.374,265.875C774.591,282.5,805.027,315.75,833.766,332.375C862.504,349,889.546,349,916.588,349C943.629,349,970.671,349,989.958,349C1009.246,349,1020.779,349,1026.546,349L1032.313,349" id="L-E-M-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-E LE-M" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M810.463,248.253L814.629,249.169C818.796,250.086,827.129,251.918,844.817,252.834C862.504,253.75,889.546,253.75,916.588,253.75C943.629,253.75,970.671,253.75,1001.41,224.553C1032.149,195.355,1066.585,136.96,1083.803,107.763L1101.021,78.565" id="L-E-F-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-E LE-F" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M1093.698,74L1077.701,88.5C1061.703,103,1029.708,132,1000.189,146.5C970.671,161,943.629,161,916.588,161C889.546,161,862.504,161,836.698,168.738C810.892,176.475,786.322,191.95,774.037,199.688L761.752,207.425" id="L-F-E-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-F LE-E" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M73.862,519.59L85.922,520.991C97.981,522.393,122.1,525.197,146.219,526.598C170.338,528,194.456,528,218.739,505.071C243.022,482.142,267.47,436.285,279.694,413.356L291.917,390.427" id="L-FA-U-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-FA LE-U" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M358.669,377.025L364.064,378.104C369.458,379.183,380.248,381.342,404.485,402.837C428.723,424.333,466.408,465.167,504.094,485.583C541.779,506,579.465,506,602.951,506C626.438,506,635.725,506,640.369,506L645.013,506" id="L-U-FD-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-U LE-FD" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M344.842,234.5L352.541,238.25C360.241,242,375.639,249.5,402.181,253.25C428.723,257,466.408,257,504.094,257C541.779,257,579.465,257,602.624,255.922C625.784,254.845,634.418,252.689,638.735,251.611L643.052,250.534" id="L-A-E-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-E" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M366.038,213.58L370.204,213.483C374.371,213.387,382.704,213.193,405.714,213.097C428.723,213,466.408,213,504.094,213C541.779,213,579.465,213,601.601,213.505C623.737,214.011,630.324,215.022,633.618,215.527L636.911,216.032" id="L-A-E-1" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-A LE-E" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/><path d="M691.268,210.25L678.915,203.375C666.562,196.5,641.856,182.75,610.66,175.875C579.465,169,541.779,169,504.094,169C466.408,169,428.723,169,402.38,173.001C376.037,177.002,361.037,185.004,353.537,189.005L346.037,193.005" id="L-E-A-0" class=" edge-thickness-normal edge-pattern-solid flowchart-link LS-E LE-A" style="fill:none;" marker-end="url(#mermaid-diagram-0-1765026840973-svg_flowchart-pointEnd)"/></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(146.21875, 484)"><g class="label" transform="translate(-47.35625076293945, -12)"><foreignObject width="94.7125015258789" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Login, signup</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(504.09375381469727, 356.25)"><g class="label" transform="translate(-88.0562515258789, -12)"><foreignObject width="176.1125030517578" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Create report with image</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(916.5875053405762, 349)"><g class="label" transform="translate(-56.125, -12)"><foreignObject width="112.25" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Store and query</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(916.5875053405762, 253.75)"><g class="label" transform="translate(-52.70624923706055, -12)"><foreignObject width="105.4124984741211" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Forward image</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(916.5875053405762, 161)"><g class="label" transform="translate(-29.01875114440918, -12)"><foreignObject width="58.03750228881836" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">AI result</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(146.21875, 528)"><g class="label" transform="translate(-36.1875, -12)"><foreignObject width="72.375" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Auth state</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(504.09375381469727, 506)"><g class="label" transform="translate(-56.3125, -12)"><foreignObject width="112.625" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Dashboard data</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(504.09375381469727, 257)"><g class="label" transform="translate(-52.525001525878906, -12)"><foreignObject width="105.05000305175781" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Login api login</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(504.09375381469727, 213)"><g class="label" transform="translate(-80.4312515258789, -12)"><foreignObject width="160.8625030517578" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Fetch reports and stats</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(504.09375381469727, 169)"><g class="label" transform="translate(-59.6875, -12)"><foreignObject width="119.375" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Aggregated data</span></div></foreignObject></g></g></g><g class="nodes"><g class="node default default flowchart-label" id="flowchart-A-6" data-node="true" data-id="A" transform="translate(304.8062515258789, 215)"><rect class="basic label-container" style="" rx="0" ry="0" x="-61.23125076293945" y="-19.5" width="122.4625015258789" height="39"/><g class="label" style="" transform="translate(-53.73125076293945, -12)"><rect/><foreignObject width="107.4625015258789" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Admin browser</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-F-5" data-node="true" data-id="F" transform="translate(1115.2125053405762, 54.5)"><rect class="basic label-container" style="" rx="0" ry="0" x="-92.5" y="-19.5" width="185" height="39"/><g class="label" style="" transform="translate(-85, -12)"><rect/><foreignObject width="170" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Predict image port 5001</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-E-3" data-node="true" data-id="E" transform="translate(726.3062553405762, 229.75)"><rect class="basic label-container" style="" rx="0" ry="0" x="-84.15625" y="-19.5" width="168.3125" height="39"/><g class="label" style="" transform="translate(-76.65625, -12)"><rect/><foreignObject width="153.3125" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Express API port 5000</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-M-4" data-node="true" data-id="M" transform="translate(1115.2125053405762, 349)"><rect class="basic label-container" style="" rx="0" ry="0" x="-77.5999984741211" y="-19.5" width="155.1999969482422" height="39"/><g class="label" style="" transform="translate(-70.0999984741211, -12)"><rect/><foreignObject width="140.1999969482422" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">MongoDB database</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-FA-1" data-node="true" data-id="FA" transform="translate(49.43124961853027, 516.75)"><rect class="basic label-container" style="" rx="0" ry="0" x="-24.431249618530273" y="-19.5" width="48.86249923706055" height="39"/><g class="label" style="" transform="translate(-16.931249618530273, -12)"><rect/><foreignObject width="33.86249923706055" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Auth</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-FD-2" data-node="true" data-id="FD" transform="translate(726.3062553405762, 506)"><rect class="basic label-container" style="" rx="0" ry="0" x="-75.9937515258789" y="-19.5" width="151.9875030517578" height="39"/><g class="label" style="" transform="translate(-68.4937515258789, -12)"><rect/><foreignObject width="136.9875030517578" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">Firestore &amp; Storage</span></div></foreignObject></g></g><g class="node default default flowchart-label" id="flowchart-U-0" data-node="true" data-id="U" transform="translate(304.8062515258789, 366.25)"><rect class="basic label-container" style="" rx="0" ry="0" x="-53.86249923706055" y="-19.5" width="107.7249984741211" height="39"/><g class="label" style="" transform="translate(-46.36249923706055, -12)"><rect/><foreignObject width="92.7249984741211" height="24"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">User browser</span></div></foreignObject></g></g></g></g></g></svg>
