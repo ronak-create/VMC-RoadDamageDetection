@@ -612,3 +612,10 @@ Loss curves and validation metrics demonstrate consistent convergence throughout
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![YOLO](https://img.shields.io/badge/YOLO-Detection-orange)
+![Flask](https://img.shields.io/badge/Flask-API-black)
+![NodeJS](https://img.shields.io/badge/NodeJS-Backend-green)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-darkgreen)
+![Firebase](https://img.shields.io/badge/Firebase-Auth-yellow)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv8-red)
