@@ -504,3 +504,111 @@ sequenceDiagram
     Flask-->>Backend: JSON + annotated output
     Backend-->>User: Display result
 ```
+
+# 📊 Model Evaluation & Performance Metrics
+
+The trained YOLO-based defect detection model (`best.pt`) was evaluated across four defect types: **crack, pothole, patch, and other**.  
+This section summarizes confidence behavior, accuracy, training curves, dataset distribution, and confusion metrics.
+
+## 📌 Quantitative Performance Summary
+
+### 🔹 Per-Class Metrics
+
+| Class      | mAP@0.5 | Peak F1 | Observations |
+|------------|---------|---------|--------------|
+| Crack      | **0.648** | ~0.60 | Strong detection performance, slight confusion with background |
+| Pothole    | **0.664** | ~0.62 | Best performing class — clear object structure |
+| Patch      | **0.412** | ~0.43 | Weakest — likely due to dataset imbalance / ambiguity |
+| Other      | **0.577** | ~0.58 | Moderate performance with confusion vs background |
+| **Average** | **0.575** | ~0.57 | Strong enough for real-world inference |
+
+---
+
+### 🔹 Confidence Behavior Summary
+
+| Metric                       | Peak Value | Best Confidence Threshold |
+|-----------------------------|------------|----------------------------|
+| **F1 score (overall)**      | ~0.57      | ~0.28                      |
+| **Precision**               | ~1.00      | ~0.95                      |
+| **Recall**                  | ~0.85      | ~0.00                      |
+
+---
+
+### 🔹 Interpretation Insights
+
+✔ Increasing confidence improves precision but lowers recall  
+✔ Best working threshold range → **0.25 – 0.35**  
+✔ Patch class would benefit from augmentation or re-labelling  
+
+---
+
+## 🔹 Confidence–Performance Curves
+
+These plots illustrate how confidence scores affect model stability and output quality.
+
+### F1 vs Confidence Curve
+![F1 Curve](BoxF1_curve.png)
+
+### Precision vs Confidence Curve
+![Precision Curve](BoxP_curve.png)
+
+### Precision–Recall Curve  
+*Overall performance shows **mAP@0.5 = 0.575**, with per-class values shown in legend.*
+![Precision-Recall Curve](BoxPR_curve.png)
+
+### Recall vs Confidence Curve
+![Recall Curve](BoxR_curve.png)
+
+---
+
+## 🔹 Confusion Matrices
+
+### Raw Confusion Matrix  
+Shows the exact number of correct/incorrect predictions across classes.
+
+![Confusion Matrix](confusion_matrix.png)
+
+### Normalized Confusion Matrix  
+Shows proportional confusion per class for precision analysis.
+
+![Confusion Matrix Normalized](confusion_matrix_normalized.png)
+
+---
+
+## 🔹 Dataset Distribution & Spatial Density
+
+This figure highlights:
+✔ Number of labeled objects per class  
+✔ Spatial heatmap of object centers  
+✔ Bounding box size distribution
+
+![Dataset Labels & Density](labels.jpg)
+
+---
+
+## 🔹 Training Progress Metrics
+
+Loss curves and validation metrics demonstrate consistent convergence throughout training.
+
+![Training Results](results.png)
+
+---
+
+## 📌 Model Summary Insight
+
+✔ Best average operating threshold ~0.28 confidence  
+✔ Best precision achieved near ~0.95 confidence  
+✔ Highest confusion occurs between **crack vs background**  
+✔ “Patch” class is weakest — likely due to dataset imbalance or class ambiguity  
+
+---
+
+## 📌 Recommendations
+
+- Improve dataset balance for underrepresented classes  
+- Add harder background cases to reduce false positives  
+- Consider threshold tuning per class  
+- Explore augmentation & label refinement for “patch”
+
+---
+
