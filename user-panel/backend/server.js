@@ -1,7 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
+import dotenv from "dotenv";
 import reportRoute from "../utils/reports.js";
+
+dotenv.config();
 
 const app = express();
 app.use(cors());
@@ -9,14 +12,11 @@ app.use(express.json());
 
 // Connect to MongoDB
 mongoose
-  .connect(
-    "mongodb+srv://ronakparmar2428_db_user:abc%40123@staticdetection.z53q1az.mongodb.net/StaticDetection?retryWrites=true&w=majority"
-  )
+  .connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
   .catch(console.error);
 
-
-// Use the report route
+// Routes
 app.use("/api", reportRoute);
 
 app.listen(5000, () => console.log("Server running on port 5000"));
